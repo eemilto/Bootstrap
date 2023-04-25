@@ -1,0 +1,12 @@
+body{
+    background-image: url(../Images/AE.jpg);
+}
+#aboutBand {
+    color: rgb(0, 47, 255);
+}
+#collapseWidthExample {
+    color: rgb(255, 0, 170);
+}
+#nav {
+    background-color: rgb(0, 0, 168);
+}
