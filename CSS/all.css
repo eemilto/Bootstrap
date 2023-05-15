@@ -1,5 +1,6 @@
 body{
     background-image: url(../Images/AE.jpg);
+    background-size:100vw;
 }
 #aboutBand {
     color: rgb(0, 47, 255);
@@ -14,4 +15,19 @@ body{
     color: rgb(255, 0, 212);
     text-align: center;
     font-size: 100px;
+}
+#albumeita {
+    color: rgb(12, 12, 151);
+}
+h1 span {
+    color: rgb(255, 0, 200);
+}
+#bandi {
+    color: rgb(255, 0, 234);
+}
+#jasennimet {
+    color: rgb(255, 0, 0);
+}
+#lisaainfoa {
+color: rgb(17, 0, 173);
 }
