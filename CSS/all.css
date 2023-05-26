@@ -31,3 +31,17 @@ h1 span {
 #lisaainfoa {
 color: rgb(17, 0, 173);
 }
+h1::first-letter {
+    color: #ff0000;
+    font-size: 60px;
+  }
+  h2::first-letter {
+    color: #ff0000;
+  }
+  h3::first-line {
+    color: #0bf52a;
+    font-variant: small-caps;
+  }
+  h1::after {
+    content: url(../Images/Arch-Enemy-Logo.png);
+  }
