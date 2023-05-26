@@ -45,3 +45,7 @@ h1::first-letter {
   h1::after {
     content: url(../Images/Arch-Enemy-Logo.png);
   }
+  ::selection {
+    color: rgb(0, 238, 255);
+    background: rgb(218, 18, 158);
+  }
