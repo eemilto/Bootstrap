@@ -1,6 +1,7 @@
+$primary-color: #0400ff
+
 body{
     background-image: url(../Images/AE.jpg);
-    background-size:100vw;
 }
 #aboutBand {
     color: rgb(0, 47, 255);
@@ -44,7 +45,7 @@ h1::first-letter {
     background: rgb(218, 18, 158);
 }
 #bandi {
-    color: rgb(255, 0, 234);
+    color: $primary-color
 }
 h1 span {
     color: rgb(255, 0, 200);
