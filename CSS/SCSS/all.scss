@@ -1,7 +1,9 @@
-$primary-color: #0400ff
-
+$primary-color: #1100ff;
+$secondary-color: #d400ff;
+/* primary-color bootstrap-sivujen pääväri, mitä käytin eniten */
 body{
     background-image: url(../Images/AE.jpg);
+    background-size:100vw;
 }
 #aboutBand {
     color: rgb(0, 47, 255);
@@ -45,12 +47,12 @@ h1::first-letter {
     background: rgb(218, 18, 158);
 }
 #bandi {
-    color: $primary-color
+    color: $secondary-color;
 }
 h1 span {
-    color: rgb(255, 0, 200);
+    color: $primary-color;
 }
-
+/* koodin toisto */
 
 /* En saanut muita selektoreita toimimaan, kuin pseudo selektorit. */
 /* Sass asentui oikein, mutta en saanut koodeja toimimaan. */
